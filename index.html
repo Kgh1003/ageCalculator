@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/js-datepicker/dist/datepicker.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Age Calculator</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Age Calculator</h1>
+            <label for="birthdate">Enter your birthdate:</label>
+            <input type="text" id="birthdate" name="birthdate" class="age-calculate">
+            <button id="calculateBtn">Calculate Age</button>
+            <span id="result" class="result"></span>
+        </div>
+
+        <script src="https://unpkg.com/js-datepicker"></script>
+        <script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
